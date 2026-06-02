@@ -166,6 +166,6 @@ LICENSE
 Personal / Academic Project
 
 AUTHOR
-Project : Frogger CV Interactive Game
-Purpose : Computer Vision Game Implementation
+Project : Frogger CV Interactive Game  
+Purpose : Computer Vision Game Implementation  
 Name    : Travis

@@ -2,8 +2,6 @@
 
 Sebuah reka ulang (remake) dari game arcade klasik "Frogger", di mana pemain mengendalikan karakter menggunakan **pergerakan ujung jari telunjuk secara real-time (Computer Vision)**, bukan menggunakan keyboard atau controller.
 
-Proyek ini dibangun menggunakan Python dan mengimplementasikan *Natural User Interface* (NUI) dengan membaca landmark tangan manusia.
-
 ## 🚀 Fitur Utama
 * **Index Finger Tracking**: Mendeteksi dan melacak pergerakan ujung jari telunjuk (Landmark 8) menggunakan kecerdasan buatan.
 * **Win State & Auto-Reset**: Dilengkapi layar kemenangan ("KAMU MENANG!") dan *timer* 3 detik untuk mengulang permainan secara otomatis bergaya mesin *arcade*.

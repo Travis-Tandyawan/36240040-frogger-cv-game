@@ -33,5 +33,5 @@ Game ini menggunakan sistem Sentakan (Flick) berbasis titik tengah (Netral).
 2. MAJU: Sentakkan jari ke atas melewati lingkaran merah, lalu segera kembalikan jari ke lingkaran merah.
 3. MUNDUR: Sentakkan jari ke bawah, lalu kembalikan ke tengah.
 4. KIRI/KANAN: Sentakkan jari ke kiri/kanan, lalu kembalikan ke tengah.
-5. Seberangi jalan raya dan sungai hingga mencapai garis kuning di paling atas untuk memenangkan permainan!
+5. Seberangi jalan raya dan sungai hingga mencapai garis finish di paling atas untuk memenangkan permainan!
 

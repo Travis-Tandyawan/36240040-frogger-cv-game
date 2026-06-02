@@ -33,6 +33,7 @@ Tujuan Frogger CV adalah:
 - Menggunakan gestur sentakan jari untuk melompat.
 
 PROJECT ARCHITECTURE
+```
 +-----------------------+
 |    Webcam Input       |
 +-----------+-----------+
@@ -73,6 +74,7 @@ FROGGER_CV
 ├── main.py
 ├── README.md
 └── requirements.txt
+```
 
 QUICK START
 Menjalankan game dari source code:

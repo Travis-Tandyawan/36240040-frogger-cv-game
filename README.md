@@ -16,16 +16,6 @@ Proyek ini dibangun menggunakan Python dan mengimplementasikan *Natural User Int
 * **MediaPipe**: Model *Machine Learning* ringan dari Google untuk pelacakan titik *landmark* tangan.
 * **Pygame**: *Engine* utama untuk render grafis 2D, deteksi kolisi (tabrakan), dan logika *game loop*.
 
-## 📥 Cara Instalasi dan Bermain (Untuk Developer)
-1. *Clone* repositori ini:
-   ```bash
-   git clone [https://github.com/Travis-Tandyawan/frogger-cv-game.git](https://github.com/Travis-Tandyawan/frogger-cv-game.git)
-2. Buat Virtual Environment (opsional tapi direkomendasikan) dan instal dependensi:
-   ```Bash
-   pip install opencv-python mediapipe==0.10.14 pygame
-3. Jalankan Game
-   ```Bash
-   python main.py
 
 🎮 Kontrol (Gerakan Tangan)
 Game ini menggunakan sistem Sentakan (Flick) berbasis titik tengah (Netral).

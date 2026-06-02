@@ -4,7 +4,7 @@ Sebuah reka ulang (remake) dari game arcade klasik "Frogger", di mana pemain men
 
 ## 🚀 Fitur Utama
 * **Index Finger Tracking**: Mendeteksi dan melacak pergerakan ujung jari telunjuk (Landmark 8) menggunakan kecerdasan buatan.
-* **Win State & Auto-Reset**: Dilengkapi layar kemenangan ("KAMU MENANG!") dan *timer* 3 detik untuk mengulang permainan secara otomatis bergaya mesin *arcade*.
+* **Win State & Auto-Reset**: Dilengkapi layar kemenangan ("YOU WIN!") dan *timer* 3 detik untuk mengulang permainan secara otomatis bergaya mesin *arcade*.
 * **Dynamic Grid Movement**: Pemetaan gerakan (Maju, Mundur, Kiri, Kanan) yang sejajar dan presisi ke sistem petak (grid) game 2D.
 * **Anti-Jitter Mechanism**: Menggunakan sistem "Anchor & Neutral Zone" untuk mencegah lompatan ganda yang tidak disengaja.
 

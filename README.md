@@ -60,8 +60,10 @@ PROJECT ARCHITECTURE
 |     Pygame Engine     | <- Visualisasi & Audio
 +-----------------------+
 
+```
 DIRECTORY STRUCTURE
 FROGGER_CV
+```
 │
 ├── assets/
 │   ├── cars_sheet.png

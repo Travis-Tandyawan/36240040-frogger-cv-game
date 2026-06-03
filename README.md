@@ -6,29 +6,19 @@ Silakan unduh file aplikasi siap pakainya di menu **Releases** yang ada di sebel
 
 👉 **[https://github.com/Travis-Tandyawan/36240040-frogger-cv-game/releases/tag/v1.0.0]**
 
-Version     : 1.0.0
-Language    : Python 3.x
-Category    : Computer Vision / Interactive Gaming
-Framework   : Pygame, OpenCV, Google MediaPipe
-
 PROJECT OVERVIEW
-Project ini merupakan modernisasi dari game klasik Frogger 
-dengan mengimplementasikan teknologi Computer Vision. 
-Alih-alih menggunakan keyboard, pemain mengontrol karakter 
-katak menggunakan gestur pergerakan tangan di depan webcam 
-secara real-time.
+Project ini merupakan modernisasi dari game klasik Frogger dengan mengimplementasikan teknologi Computer Vision. 
+Alih-alih menggunakan keyboard, pemain mengontrol karakter katak menggunakan gestur pergerakan tangan di depan webcam secara real-time.
 
 Fitur Utama:
 1. Hand Tracking Tracking
-   - Menggunakan MediaPipe untuk mendeteksi landmark 
-     tangan, khususnya jari telunjuk (Index Finger).
+   - Menggunakan MediaPipe untuk mendeteksi landmark tangan, khususnya jari telunjuk (Index Finger).
 2. Procedural Animation
    - Animasi arus air sungai yang di-render secara prosedural.
 3. Linear Interpolation (Lerp)
    - Pergerakan katak yang halus antar-koordinat (snap-to-grid).
 4. Collision Detection
-   - Deteksi tabrakan presisi dengan mobil dan logika pijakan 
-     di atas batang kayu/daun teratai.
+   - Deteksi tabrakan presisi dengan mobil dan logika pijakan di atas batang kayu/daun teratai.
 
 GAME OBJECTIVE
 Tujuan Frogger CV adalah:
@@ -176,4 +166,4 @@ Personal / Academic Project
 AUTHOR
 Project : Frogger CV Interactive Game  
 Purpose : Computer Vision Game Implementation  
-Name    : Travis
+Name    : Travis Tandyawan (36240040)

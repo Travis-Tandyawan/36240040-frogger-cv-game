@@ -1,4 +1,4 @@
-FROGGER CV - MOTION CONTROLLED GAME
+## FROGGER CV - MOTION CONTROLLED GAME
 
 Aplikasi ini sudah di-build menjadi `.exe`.
 
@@ -6,11 +6,11 @@ Silakan unduh file aplikasi siap pakainya di menu **Releases** yang ada di sebel
 
 👉 **[https://github.com/Travis-Tandyawan/36240040-frogger-cv-game/releases/tag/v1.0.0]**
 
-PROJECT OVERVIEW  
+## PROJECT OVERVIEW  
 Project ini merupakan modernisasi dari game klasik Frogger dengan mengimplementasikan teknologi Computer Vision. 
 Alih-alih menggunakan keyboard, pemain mengontrol karakter katak menggunakan gestur pergerakan tangan di depan webcam secara real-time.
 
-Fitur Utama:
+## Fitur Utama:
 1. Hand Tracking Tracking
    - Menggunakan MediaPipe untuk mendeteksi landmark tangan, khususnya jari telunjuk (Index Finger).
 2. Procedural Animation
@@ -20,7 +20,7 @@ Fitur Utama:
 4. Collision Detection
    - Deteksi tabrakan presisi dengan mobil dan logika pijakan di atas batang kayu/daun teratai.
 
-GAME OBJECTIVE
+## GAME OBJECTIVE
 Tujuan Frogger CV adalah:
 - Menyeberangi jalan raya bawah yang padat kendaraan.
 - Melompat dari satu pijakan ke pijakan lain di sungai.
@@ -28,7 +28,7 @@ Tujuan Frogger CV adalah:
 - Mencapai garis finish (tebing rumput hijau) dengan selamat.
 - Menggunakan gestur sentakan jari untuk melompat.
 
-PROJECT ARCHITECTURE
+## PROJECT ARCHITECTURE
 ```
 +-----------------------+
 |    Webcam Input       |
@@ -57,7 +57,7 @@ PROJECT ARCHITECTURE
 +-----------------------+
 
 ```
-DIRECTORY STRUCTURE
+## DIRECTORY STRUCTURE
 FROGGER_CV
 ```
 │
@@ -74,7 +74,7 @@ FROGGER_CV
 └── requirements.txt
 ```
 
-QUICK START
+## QUICK START
 Menjalankan game dari source code:
 python main.py
 
@@ -82,7 +82,7 @@ python main.py
 digunakan oleh aplikasi lain (seperti Zoom/Meet) saat 
 menjalankan game ini.
 
-COMPUTER VISION EXECUTION
+## COMPUTER VISION EXECUTION
 Cara mengontrol karakter (Pengganti Keyboard):
 
 1. Titik Netral (Anchor):
@@ -100,14 +100,14 @@ Cara mengontrol karakter (Pengganti Keyboard):
    Kembalikan jari ke dalam radius titik merah (< 20 piksel)
    agar sistem siap menerima perintah lompatan berikutnya.
 
-PERFORMANCE EVALUATION
+## PERFORMANCE EVALUATION
 Metrik evaluasi sistem game ini meliputi:
 - FPS (Frames Per Second) dibatasi stabil pada 30 FPS.
 - Latency deteksi MediaPipe pada RGB frame conversion.
 - Keakuratan snap-to-grid (Magnet System) saat katak 
   mendarat di objek dinamis (batang kayu bergerak).
 
-DEBUGGING
+## DEBUGGING
 Kamera tidak menyala (Crash/Error):
 - Pastikan indeks kamera di kode (cv2.VideoCapture(0)) 
   sudah sesuai. Ubah angka 0 menjadi 1 atau 2 jika 
@@ -117,7 +117,7 @@ Suara tidak keluar:
 - Pastikan ekstensi file di folder assets sesuai dengan
   yang didaftarkan di source code (.ogg atau .wav).
 
-COMPUTER VISION CONCEPT
+## COMPUTER VISION CONCEPT
 Sistem kendali menggunakan kalkulasi jarak Euclidean 
 sederhana pada koordinat layar:
 
@@ -129,7 +129,7 @@ cx, cy = Posisi absolut jari telunjuk saat ini.
 anchor_x, anchor_y = Posisi awal (netral) saat jari diangkat.
 Threshold lompatan dieksekusi jika |Δx| > 40 atau |Δy| > 40.
 
-FUTURE IMPROVEMENTS
+## FUTURE IMPROVEMENTS
 Beberapa pengembangan yang direkomendasikan:
 
 [GAMEPLAY]
@@ -142,28 +142,28 @@ Beberapa pengembangan yang direkomendasikan:
   Programming (OOP) Class untuk Modul Player, Modul Rintangan, 
   dan Modul Kamera.
 
-SYSTEM REQUIREMENTS
+## SYSTEM REQUIREMENTS
 Minimum:
 CPU      : Prosesor Dual Core 2.0 GHz
 RAM      : 4 GB
 Python   : 3.8+
 Hardware : Webcam Terintegrasi / Eksternal
 
-Recommended:
+## Recommended:
 CPU      : Prosesor Quad Core 2.5 GHz atau lebih baru
 RAM      : 8 GB
 Python   : 3.10+
 Hardware : Webcam 720p 30fps untuk deteksi gerakan optimal
 
-REFERENCES
+## REFERENCES
 - Pygame Documentation (https://www.pygame.org/docs/)
 - Google MediaPipe Solutions (Hand Tracking)
 - OpenCV Python Tutorials
 
-LICENSE
+## LICENSE
 Personal / Academic Project
 
-AUTHOR
+## AUTHOR
 Project : Frogger CV Interactive Game  
 Purpose : Computer Vision Game Implementation  
 Name    : Travis Tandyawan (36240040)

@@ -119,14 +119,13 @@ Suara tidak keluar:
 
 ## COMPUTER VISION CONCEPT
 Sistem kendali menggunakan kalkulasi jarak Euclidean 
-sederhana pada koordinat layar:
-
-Δx = cx - anchor_x
-Δy = cy - anchor_y
+sederhana pada koordinat layar:  
+Δx = cx - anchor_x  
+Δy = cy - anchor_y  
 
 Dimana:
-cx, cy = Posisi absolut jari telunjuk saat ini.
-anchor_x, anchor_y = Posisi awal (netral) saat jari diangkat.
+cx, cy = Posisi absolut jari telunjuk saat ini.  
+anchor_x, anchor_y = Posisi awal (netral) saat jari diangkat.  
 Threshold lompatan dieksekusi jika |Δx| > 40 atau |Δy| > 40.
 
 ## FUTURE IMPROVEMENTS

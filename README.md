@@ -4,7 +4,7 @@ Aplikasi ini sudah di-build menjadi `.exe`.
 
 Silakan unduh file aplikasi siap pakainya di menu **Releases** yang ada di sebelah kanan, atau klik tautan langsung di bawah ini:
 
-👉 **[]**
+👉 **[https://github.com/Travis-Tandyawan/36240040-frogger-cv-game/releases/tag/v1.0.0]**
 
 Version     : 1.0.0
 Language    : Python 3.x

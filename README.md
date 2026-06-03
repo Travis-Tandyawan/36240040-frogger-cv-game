@@ -6,7 +6,7 @@ Silakan unduh file aplikasi siap pakainya di menu **Releases** yang ada di sebel
 
 👉 **[https://github.com/Travis-Tandyawan/36240040-frogger-cv-game/releases/tag/v1.0.0]**
 
-PROJECT OVERVIEW
+PROJECT OVERVIEW  
 Project ini merupakan modernisasi dari game klasik Frogger dengan mengimplementasikan teknologi Computer Vision. 
 Alih-alih menggunakan keyboard, pemain mengontrol karakter katak menggunakan gestur pergerakan tangan di depan webcam secara real-time.
 

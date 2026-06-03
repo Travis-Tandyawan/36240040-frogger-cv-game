@@ -11,9 +11,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-# ============================================================
 # 1. PERSIAPAN GAME (PYGAME)
-# ============================================================
 pygame.init()
 pygame.font.init()
 pygame.mixer.init() 
@@ -29,6 +27,7 @@ kodok_y = posisi_awal_y
 ukuran_kodok = 40
 jarak_lompat = 40
 
+# ANIMATION LOMPAT HALUS
 target_x = posisi_awal_x
 target_y = posisi_awal_y
 is_jumping = False

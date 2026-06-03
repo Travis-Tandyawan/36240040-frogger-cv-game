@@ -143,22 +143,22 @@ Beberapa pengembangan yang direkomendasikan:
   dan Modul Kamera.
 
 ## SYSTEM REQUIREMENTS
-Minimum:
-CPU      : Prosesor Dual Core 2.0 GHz
-RAM      : 4 GB
-Python   : 3.8+
+Minimum:  
+CPU      : Prosesor Dual Core 2.0 GHz  
+RAM      : 4 GB  
+Python   : 3.8+  
 Hardware : Webcam Terintegrasi / Eksternal
 
 ## Recommended:
-CPU      : Prosesor Quad Core 2.5 GHz atau lebih baru
-RAM      : 8 GB
-Python   : 3.10+
+CPU      : Prosesor Quad Core 2.5 GHz atau lebih baru  
+RAM      : 8 GB  
+Python   : 3.10+  
 Hardware : Webcam 720p 30fps untuk deteksi gerakan optimal
 
 ## REFERENCES
-- Pygame Documentation (https://www.pygame.org/docs/)
-- Google MediaPipe Solutions (Hand Tracking)
-- OpenCV Python Tutorials
+- Pygame Documentation (https://www.pygame.org/docs/)  
+- Google MediaPipe Solutions (Hand Tracking)  
+- OpenCV Python Tutorials  
 
 ## LICENSE
 Personal / Academic Project

@@ -1,5 +1,11 @@
 FROGGER CV - MOTION CONTROLLED GAME
 
+Aplikasi ini sudah di-build menjadi `.exe`.
+
+Silakan unduh file aplikasi siap pakainya di menu **Releases** yang ada di sebelah kanan, atau klik tautan langsung di bawah ini:
+
+👉 **[]**
+
 Version     : 1.0.0
 Language    : Python 3.x
 Category    : Computer Vision / Interactive Gaming

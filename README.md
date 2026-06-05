@@ -84,16 +84,13 @@ python main.py
 
 ## COMPUTER VISION EXECUTION
 Cara mengontrol karakter:  
-1. Titik Netral (Anchor):  
-Angkat jari telunjuk ke depan kamera hingga terdeteksi (muncul titik merah).  
-2. Trigger Gerakan (Threshold):  
-Sentakkan jari menjauhi titik merah sejauh > 40 piksel.  
+1. Titik Netral (Anchor): Angkat jari telunjuk ke depan kamera hingga terdeteksi (muncul titik merah).  
+2. Trigger Gerakan (Threshold): Sentakkan jari menjauhi titik merah sejauh > 40 piksel.
 - Atas   : Melompat Maju  
 - Bawah  : Melompat Mundur  
 - Kiri   : Melompat Kiri  
 - Kanan  : Melompat Kanan  
-3. Reset State:  
-Kembalikan jari ke dalam radius titik merah (< 20 piksel) untuk lompatan berikutnya.
+3. Reset State: Kembalikan jari ke dalam radius titik merah (< 20 piksel) untuk lompatan berikutnya.
 
 ## PERFORMANCE EVALUATION
 Metrik evaluasi sistem game ini meliputi:

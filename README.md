@@ -13,7 +13,7 @@ Alih-alih menggunakan keyboard, pemain mengontrol karakter katak menggunakan ges
 ## Fitur Utama:
 1. Hand Tracking (Computer Vision)
    - Menggunakan MediaPipe untuk mendeteksi landmark jari telunjuk (Index Finger) sebagai penggerak karakter.
-2. AI Predator (A Search Algorithm)*
+2. AI Predator (A* Search Algorithm)
    - Musuh (Elang) diprogram menggunakan algoritma A* untuk bernavigasi secara cerdas mengejar posisi pemain.
 3. Dynamic Difficulty Adjustment (Fuzzy Logic)
    - Kesulitan permainan (kecepatan rintangan) disesuaikan secara otomatis menggunakan sistem pakar Fuzzy berdasarkan performa pemain.

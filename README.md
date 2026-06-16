@@ -118,5 +118,5 @@ Hardware : Webcam 720p 30fps untuk deteksi gerakan optimal
 
 ## AUTHOR
 Project : Frogger CV Intelligence Game  
-Purpose : ML for Intelligent System Project   
+Purpose : Machine Learning for Intelligent System Project   
 Name    : Travis Tandyawan (36240040)
